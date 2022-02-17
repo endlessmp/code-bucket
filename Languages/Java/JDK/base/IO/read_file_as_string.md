@@ -1,4 +1,7 @@
+# Read File as String
+```java
 //1. Create a File Object and point to your filepath, which you want to read
+
 File initialFile = new File(new java.io.File("").getAbsolutePath()+"/app/src/main/assets/ab.txt");
 
 //2. Surround the read process with try - catch because a lot things can go wrong, for example File not found
@@ -37,3 +40,4 @@ try {
     //Or when the file could not be read
     e.printStackTrace();
 }
+```
